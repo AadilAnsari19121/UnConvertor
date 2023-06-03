@@ -8,17 +8,15 @@ some currency also.
 
 ## Screenshots
 
-![Home](https://github.com/AadilAnsari19121/Taja_Khabar/blob/master/screenshots_taja_khabar/hom.jpg)
+![Home](https://github.com/AadilAnsari19121/UnConvertor/blob/master/screenshots_UnConvertor/Screenshot_20230603-110137.jpg)
 - Home Page
 #
-![full](https://github.com/AadilAnsari19121/Taja_Khabar/blob/master/screenshots_taja_khabar/ful_det.jpg)
-- Full News Page
+![full](https://github.com/AadilAnsari19121/UnConvertor/blob/master/screenshots_UnConvertor/Screenshot_20230603-110020.jpg)
+- Options Page
 #
-![Tech](https://github.com/AadilAnsari19121/Taja_Khabar/blob/master/screenshots_taja_khabar/tec.jpg)
-- Category Page
-#
-![search](https://github.com/AadilAnsari19121/Taja_Khabar/blob/master/screenshots_taja_khabar/searcview.jpg)
-- Search view
+![Tech](https://github.com/AadilAnsari19121/UnConvertor/blob/master/screenshots_UnConvertor/Screenshot_20230603-110130.jpg)
+- Exaample Convertor Page
+
 
 
 ## 🔗 Linkedln
