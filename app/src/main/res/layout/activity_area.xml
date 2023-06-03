@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Area"
+    android:orientation="vertical"
+    android:background="@drawable/background_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Area_length"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="choose the value:"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="35dp"/>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp">
+
+        <Spinner
+            android:id="@+id/arsp1"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:minHeight="48dp"
+            android:paddingLeft="5dp"
+            android:popupBackground="@drawable/background_bg"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:background="@drawable/sp_bg"/>
+
+        <EditText
+            android:id="@+id/tb1"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/arsp1"
+            android:background="@drawable/tb_bg"
+            android:hint="  Enter Value  "
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="25dp"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="~~~convert to~~~"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="3dp"/>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp">
+
+        <Spinner
+            android:id="@+id/arsp2"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="5dp"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:popupBackground="@drawable/background_bg"
+            android:background="@drawable/tb_bg"/>
+
+        <TextView
+            android:id="@+id/ans1"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/arsp2"
+            android:background="@drawable/tb_bg"
+            android:layout_marginTop="15dp"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:text="   Ans"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/anbt1"
+            android:text="convert"
+            android:background="@drawable/tb_bg"
+            android:layout_marginTop="45dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

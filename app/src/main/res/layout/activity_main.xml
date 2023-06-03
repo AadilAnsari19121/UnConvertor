@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_bg"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="UnConvertor"
+                android:textColor="@color/black"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="select any one option:"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tblout"
+                android:gravity="center"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="55dp"
+                >
+
+                <TableRow
+                    android:layout_marginTop="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/b1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/btn_bg"
+                        android:layout_marginRight="15dp"
+                        android:text="Area-Length"
+                        android:gravity="bottom|center"
+                        android:paddingBottom="23dp"
+                        android:textSize="17dp"
+                        android:drawableTop="@mipmap/icc1_len_foreground"
+                        />
+
+                    <Button
+                        android:id="@+id/b2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/btn_bg"
+                        android:layout_toRightOf="@+id/b1"
+                        android:layout_marginLeft="15dp"
+                        android:text="currency"
+                        android:gravity="center|bottom"
+                        android:paddingBottom="23dp"
+                        android:textSize="17dp"
+                        android:drawableTop="@mipmap/icc2_cur_foreground"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/b3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/btn_bg"
+                        android:layout_marginRight="15dp"
+                        android:text="Temperature"
+                        android:gravity="center|bottom"
+                        android:paddingBottom="23dp"
+                        android:textSize="17dp"
+                        android:drawableTop="@mipmap/icc4_tem_foreground"
+
+                        />
+
+                    <Button
+                        android:id="@+id/b4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/btn_bg"
+                        android:layout_toRightOf="@+id/b1"
+                        android:layout_marginLeft="15dp"
+                        android:text="Volume"
+                        android:gravity="center|bottom"
+                        android:paddingBottom="23dp"
+                        android:textSize="17dp"
+                        android:drawableTop="@mipmap/icc3_vol_foreground"
+
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/b5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/btn_bg"
+                        android:layout_marginRight="15dp"
+                        android:text="Mass"
+                        android:gravity="center|bottom"
+                        android:paddingBottom="23dp"
+                        android:textSize="17dp"
+                        android:drawableTop="@mipmap/icc9_msss_foreground"
+                        />
+
+                    <Button
+                        android:id="@+id/b6"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/btn_bg"
+                        android:layout_toRightOf="@+id/b1"
+                        android:layout_marginLeft="15dp"
+                        android:text="Data"
+                        android:gravity="center|bottom"
+                        android:paddingBottom="23dp"
+                        android:textSize="17dp"
+                        android:drawableTop="@mipmap/icc8_data_foreground"
+
+                        />
+                </TableRow>
+
+
+            </TableLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
